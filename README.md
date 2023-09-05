@@ -19,3 +19,5 @@ Step 6 : Do a right click on Project - Team - Share - Add to git repo
 Step 7 : Commit and Push the project to the repo
 
 Step 8 : Commit and Push every change to the repo
+
+Video: https://www.youtube.com/watch?v=LPT7v69guVY&ab_channel=AutomationStepbyStep
