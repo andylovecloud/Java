@@ -52,7 +52,7 @@ public class Login {
 		else
 		{
 			//Print the combination of given FName + LName + domain
-			System.out.println(FName + "." + LName + "@" + Domain);
+			System.out.println((FName + "." + LName + "@" + Domain).toLowerCase());
 		}
 
 	}
