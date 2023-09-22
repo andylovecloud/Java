@@ -41,13 +41,15 @@ public class Login {
 	public static void GenerateEmail(String FName, String LName, String Domain)
 	{
 
-		if (FName == "")
+		if (FName.equals("") || LName.equals(""))
 		{
 			System.out.println("Error! First and/or last name is missing.");
+			System.exit(0);
 		}
-		else if (LName =="")
+		else if (Domain =="")
 		{
-			System.out.println("Error! First and/or last name is missing.");
+			System.out.println("Error! Domain is missing.");
+			System.exit(0);
 		}
 		else
 		{
