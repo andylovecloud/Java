@@ -47,17 +47,19 @@ public class Loop_Extra {
 //	         System.out.print("\n");
 //	      }
 		Scanner s = new Scanner(System.in); 
-		System.out.println("How many rows?");
-		int numRows = s.nextInt(); // Number of row
-		 for (int row = 1; row <= numRows; row++) 
+		System.out.println("Activity level of exercise (vigorous/moderate)?");
+//				+ "moderate");
+		String active = s.nextLine(); // Number of row
+		
+		int day =1;
+		int min = 0;
+		 for (int i = 1; day <= 7; day++) 
 		 	{
-	            // Print spaces in every row
-	            for (int space = 1; space <= numRows - row; space++) 
-	            {
-	                System.out.print(" ");
-	            }            
+	                System.out.print("Minutes on " + day + " day?" );
+//	                min = 
+	                        
 	            // Print stars after filled up the space for each row
-		        for (int stars = 1; stars <= row; stars++) 
+		        for (int stars = 1; stars <= 20; stars++) 
 		        {
 		                System.out.print("*");
 		         } 
