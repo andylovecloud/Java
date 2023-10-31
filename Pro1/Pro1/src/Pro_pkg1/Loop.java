@@ -163,3 +163,41 @@ package Pro_pkg1;
 //}
 //}
 //}
+
+
+import java.util.Scanner;
+public class Loop {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Activity level of exercise (vigorous/moderate)?");
+		Scanner in = new Scanner(System.in);
+		String active = in.nextLine();
+		
+		
+		System.out.println("Minutes on 1. day?");
+		int day1 = Integer.parseInt(in.nextLine());
+		
+		System.out.println("Minutes on 2. day?");
+		int day2 = Integer.parseInt(in.nextLine());
+
+		System.out.println("Minutes on 3. day?");
+		int day3 = Integer.parseInt(in.nextLine());
+
+		System.out.println("Minutes on 4. day?");
+		int day4 = Integer.parseInt(in.nextLine());
+		
+		System.out.println("Minutes on 5. day?");
+		int day5 = Integer.parseInt(in.nextLine());
+
+		System.out.println("Minutes on 6. day?");
+		int day6 = Integer.parseInt(in.nextLine());
+
+		System.out.println("Minutes on 7. day?");
+		int day7 = Integer.parseInt(in.nextLine());
+
+		int sum = day1 + day2 + day3 + day4 + day5 + day6 + day7;
+		System.out.println("You did "+ sum +" minutes " +  active + " exercise during week.");
+	
+	}
+}
