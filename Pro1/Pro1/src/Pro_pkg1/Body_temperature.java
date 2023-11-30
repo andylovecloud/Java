@@ -37,6 +37,7 @@ public class Body_temperature {
 		System.out.println("- horse 38");
 	}
 	
+	// The below method will return the Boolean value
 	public static Boolean hasFever(String subject, int temp)
 	{
 		Boolean fever = null;

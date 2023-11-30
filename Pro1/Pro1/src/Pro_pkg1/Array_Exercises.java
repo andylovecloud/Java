@@ -121,47 +121,47 @@ public class Array_Exercises {
 		        System.out.println(sum);*/
 		
 //----- Quiz 6----
-		/*Create an app. Create an array that has values: 16, 18, 5, 3, 10. 
-		 * Find the smallest value and print it. 
-		Make sure you test the app in IDE with different array values. 
-		   
-		int[] array = {16,18,5,3,10};
-		int minvalue = array[0];
-		for(int i = 0; i < array.length;i++)
-		{
-			if (array[i] < minvalue)
-				minvalue = array[i];
-		}
-		System.out.println(minvalue);*/
-		
+		//Create an app. Create an array that has values: 16, 18, 5, 3, 10. 
+//		 * Find the smallest value and print it. 
+//		Make sure you test the app in IDE with different array values. 
+//		   
+//		int[] array = {16,18,5,3,10};
+//		int minvalue = array[0];
+//		for(int i = 0; i < array.length;i++)
+//		{
+//			if (array[i] < minvalue)
+//				minvalue = array[i];
+//		}
+//		System.out.println(minvalue);
+//	}
 //-- Quiz 7---
-
-			    ArrayList<String> cars = new ArrayList<String>();
-			    cars.add("Kia");
-			    cars.add("Tesla");
-			    cars.add("BMW");
-			    cars.add("Renault");
-	    
-			System.out.println(cars.get(0));
-			System.out.println(cars.get(1));
-			System.out.println(cars.get(2));
-			System.out.println(cars.get(3));
-			
-			System.out.println("MODIFIED LIST");
-			 cars.set(1,"Ford");
-			 cars.set(2,"Audi");
-			 
-			 for (String i : cars) 
-			 {
-			      System.out.println(i);
-			  }
-			
-			System.out.println("SORTED LIST");
-			Collections.sort(cars);
-			 for (String i : cars) 
-			 {
-			      System.out.println(i);
-			  }
-	}
-
-}
+//
+//			    ArrayList<String> cars = new ArrayList<String>();
+//			    cars.add("Kia");
+//			    cars.add("Tesla");
+//			    cars.add("BMW");
+//			    cars.add("Renault");
+//	    
+//			System.out.println(cars.get(0));
+//			System.out.println(cars.get(1));
+//			System.out.println(cars.get(2));
+//			System.out.println(cars.get(3));
+//			
+//			System.out.println("MODIFIED LIST");
+//			 cars.set(1,"Ford");
+//			 cars.set(2,"Audi");
+//			 
+//			 for (String i : cars) 
+//			 {
+//			      System.out.println(i);
+//			  }
+//			
+//			System.out.println("SORTED LIST");
+//			Collections.sort(cars);
+//			 for (String i : cars) 
+//			 {
+//			      System.out.println(i);
+//			  }
+//	}
+//
+	}}
