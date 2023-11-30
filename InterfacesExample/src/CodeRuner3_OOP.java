@@ -49,6 +49,8 @@ abstract class Interactable
 class Door extends Interactable
 {
 	boolean isOn;
+	
+	// Define constructor with default values for isOn 
 	public Door()
 	{
 		isOn = false;
@@ -74,6 +76,8 @@ class Door extends Interactable
 class LightSwitch extends Interactable
 {
 	boolean isOn;
+	
+	// Define constructor with default values for isOn
 	public LightSwitch()
 	{
 		isOn = false;
