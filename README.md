@@ -21,3 +21,7 @@ Step 7 : Commit and Push the project to the repo
 Step 8 : Commit and Push every change to the repo
 
 Video: https://www.youtube.com/watch?v=LPT7v69guVY&ab_channel=AutomationStepbyStep
+
+# Projects:
+
+Further Java project like: Object Orientation Programming (OOP) could be found her: https://github.com/andylovecloud/Object_Orientation_Programming_Hiep_Chi_Dan_Duy.git
